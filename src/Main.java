@@ -4,10 +4,10 @@ public class Main {
         double heightInMeters = 1.65;
         double weightInKilograms = 74.0;
 
-        double index = service.calculate(heightInMeters, weightInKilograms);
-        int result = (int) index;
+        int index = service.calculate(heightInMeters, weightInKilograms);
 
-        System.out.println(result);
+
+        System.out.println(index);
 
     }
 
